@@ -37,5 +37,9 @@ The entire map itself in the edges of the confined walls
 Outcome
 Player get a tasty treat at the end (but may be a lie) and escapes the maze and obstacles
 
+Non-plain-vanilla procedure/rule:
+Dilemna - There is a fork in the road and the player has to choose between two paths: a hard but fast path and a slow but easy path.
+
+
 Executive Summary
 “Jazzy Cats in a Computer” is a co-op competitive strategic game for Windows targeted at an audience for all ages.
