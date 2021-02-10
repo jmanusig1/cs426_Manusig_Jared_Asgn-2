@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 public class PlayerMove : NetworkBehaviour
 {
     //variables that control the speed and rotation speed 
-    public float speed = .085f;
+    float speed = .08f;
     public float rotationSpeed = 2f;
 
     int jumps = 0;
