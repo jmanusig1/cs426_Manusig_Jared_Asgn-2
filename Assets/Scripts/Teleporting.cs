@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Teleporting : MonoBehaviour
+{
+    // reference: https://www.youtube.com/watch?v=WzzxjFD6-Mg
+    public Transform teleportTarget;
+    public GameObject thePlayer;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        thePlayer.transform.position = teleportTarget.transform.position;
+    }
+}
