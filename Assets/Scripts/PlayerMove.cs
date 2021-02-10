@@ -6,12 +6,12 @@ using UnityEngine.Networking;
 public class PlayerMove : NetworkBehaviour
 {
     //variables that control the speed and rotation speed 
-    public float speed = .1f;
-    public float rotationSpeed = .3f;
+    public float speed = .085f;
+    public float rotationSpeed = 2f;
 
     int jumps = 0;
     public int maxJump = 1;
-    public float force = 300f; 
+    public float force = 550f; 
 
     Rigidbody rb;
     Transform tran;
