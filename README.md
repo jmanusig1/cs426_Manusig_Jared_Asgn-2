@@ -42,4 +42,4 @@ Dilemna - There is a fork in the road and the player has to choose between two p
 
 
 Executive Summary
-“Jazzy Cats in a Computer” is a co-op competitive strategic game for Windows targeted at an audience for all ages.
+“Jazzy Cats in a Computer” is a co-op competitive strategic game for Windows targeted at an boys and girls of all ages.
