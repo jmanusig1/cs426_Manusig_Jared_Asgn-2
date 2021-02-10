@@ -16,6 +16,8 @@ public class PlayerMove : NetworkBehaviour
     Rigidbody rb;
     Transform tran;
 
+    public Camera myCam; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +34,9 @@ public class PlayerMove : NetworkBehaviour
         }
 
 
+        if (myCam.enabled == false)
+            myCam.enabled = true; 
+        
         //variables for translation adn rotation 
         var r = Input.GetAxis("Horizontal") * rotationSpeed;
         var t = Input.GetAxis("Vertical") * speed;
